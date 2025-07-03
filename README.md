@@ -1,16 +1,14 @@
-## Hi there 👋
+# Run and deploy your AI Studio app
 
-<!--
-**ClickyGPT/ClickyGPT** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This contains everything you need to run your app locally.
 
-Here are some ideas to get you started:
+## Run Locally
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
